@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #222;
+  color: #fff;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 12px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: deeppink;
+}
+
+.cart-link {
+  position: relative; 
+  display: inline-block;
+}
+
+
+.cart-badge {
+  position: absolute;
+  top: -8px;   
+  right: -12px; 
+  background: #ff4081; 
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 3px 6px;
+  border-radius: 50%; 
+  min-width: 18px; 
+  text-align: center;
+  line-height: 1.2;
+}
+
+
